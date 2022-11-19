@@ -1,7 +1,7 @@
 ###############################################################################
 # File Name  : constants.py
 # Date       : 11/18/2022
-# Description:
+# Description: Game constants.
 ###############################################################################
 
 SCREEN_HEIGHT = 600
@@ -27,7 +27,7 @@ PURPLE = (255, 0, 255)
 CYAN = (0, 255, 255)
 BLACK = (0, 0, 0)
 NEAR_BLACK = (19, 15, 48)
-COMBLUE = (233, 232, 255)
+COM_BLUE = (233, 232, 255)
 GOLD = (255, 215, 0)
 
 BG_COLOR = WHITE
@@ -51,7 +51,7 @@ MAX_Y_VEL = 11
 MAX_RUN_SPEED = 800
 MAX_WALK_SPEED = 6
 
-# Mario States
+# Mario states
 STAND = 'standing'
 WALK = 'walk'
 JUMP = 'jump'
@@ -71,31 +71,30 @@ RIGHT = 'right'
 JUMPED_ON = 'jumped on'
 DEATH_JUMP = 'death jump'
 
-# koop states
+# Koopa states
 SHELL_SLIDE = 'shell slide'
 
-# brick states
+# Brick states
 RESTING = 'resting'
 BUMPED = 'bumped'
 
-# coin states
+# Coin states
 OPENED = 'opened'
 SPIN = 'spin'
 
-# mushroom states
+# Mushroom states
 REVEAL = 'reveal'
 SLIDE = 'slide'
 
 # star states
-SPIN = 'spin'
 BOUNCE = 'bounce'
 
-# fire states
+# Fire states
 FLYING = 'flying'
 BOUNCING = 'bouncing'
 EXPLODING = 'exploding'
 
-# brick and coin box content
+# Brick and coin box content
 MUSHROOM = 'mushroom'
 STAR = 'star'
 FIRE_FLOWER = 'fire flower'
@@ -104,7 +103,7 @@ COIN = 'coin'
 LIFE_MUSHROOM = '1up_mushroom'
 FIRE_BALL = 'fireball'
 
-# List of ENEMIES
+# List of enemies
 GOOMBA = 'goomba'
 KOOPA = 'koopa'
 
@@ -114,7 +113,7 @@ NOT_FROZEN = 'not frozen'
 IN_CASTLE = 'in castle'
 FLAG_AND_FIREWORKS = 'flag and fireworks'
 
-# flag state
+# Flag state
 TOP_OF_POLE = 'top of pole'
 SLIDE_DOWN = 'slide down'
 BOTTOM_OF_POLE = 'bottom of pole'
@@ -122,11 +121,11 @@ BOTTOM_OF_POLE = 'bottom of pole'
 # 1up score
 ONEUP = '379'
 
-# main menu cursor states
+# Main menu cursor states
 PLAYER1 = '1 player'
 PLAYER2 = '2 player'
 
-# Game Info Dictionary Keys
+# Game info dictionary keys
 COIN_TOTAL = 'coin total'
 SCORE = 'score'
 TOP_SCORE = 'top score'
@@ -135,11 +134,10 @@ LEVEL_STATE = 'level state'
 CAMERA_START_X = 'camera start x'
 MARIO_DEAD = 'mario dead'
 
-# states for entire game
+# States for entire game
 MAIN_MENU = 'main menu'
 LOAD_SCREEN = 'load screen'
 TIME_OUT = 'time out'
-
 
 # Sound States
 NORMAL = 'normal'
