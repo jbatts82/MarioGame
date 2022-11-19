@@ -58,8 +58,88 @@ JUMP = 'jump'
 FALL = 'fall'
 SMALL_TO_BIG = 'small to big'
 BIG_TO_FIRE = 'big to fire'
+BIG_TO_SMALL = 'big to small'
+FLAG_POLE = 'flag pole'
 GAME_OVER = 'game over'
 LEVEL1 = 'level1'
+WALKING_TO_CASTLE = 'walking to castle'
+END_OF_LEVEL_FALL = 'end of level fall'
+
+# Goomba States
+LEFT = 'left'
+RIGHT = 'right'
+JUMPED_ON = 'jumped on'
+DEATH_JUMP = 'death jump'
+
+# koop states
+SHELL_SLIDE = 'shell slide'
+
+# brick states
+RESTING = 'resting'
+BUMPED = 'bumped'
+
+# coin states
+OPENED = 'opened'
+SPIN = 'spin'
+
+# mushroom states
+REVEAL = 'reveal'
+SLIDE = 'slide'
+
+# star states
+SPIN = 'spin'
+BOUNCE = 'bounce'
+
+# fire states
+FLYING = 'flying'
+BOUNCING = 'bouncing'
+EXPLODING = 'exploding'
+
+# brick and coin box content
+MUSHROOM = 'mushroom'
+STAR = 'star'
+FIRE_FLOWER = 'fire flower'
+SIX_COINS = '6coins'
+COIN = 'coin'
+LIFE_MUSHROOM = '1up_mushroom'
+FIRE_BALL = 'fireball'
+
+# List of ENEMIES
+GOOMBA = 'goomba'
+KOOPA = 'koopa'
+
+# Level States
+FROZEN = 'frozen'
+NOT_FROZEN = 'not frozen'
+IN_CASTLE = 'in castle'
+FLAG_AND_FIREWORKS = 'flag and fireworks'
+
+# flag state
+TOP_OF_POLE = 'top of pole'
+SLIDE_DOWN = 'slide down'
+BOTTOM_OF_POLE = 'bottom of pole'
+
+# 1up score
+ONEUP = '379'
+
+# main menu cursor states
+PLAYER1 = '1 player'
+PLAYER2 = '2 player'
+
+# Game Info Dictionary Keys
+COIN_TOTAL = 'coin total'
+SCORE = 'score'
+TOP_SCORE = 'top score'
+CURRENT_TIME = 'current time'
+LEVEL_STATE = 'level state'
+CAMERA_START_X = 'camera start x'
+MARIO_DEAD = 'mario dead'
+
+# states for entire game
+MAIN_MENU = 'main menu'
+LOAD_SCREEN = 'load screen'
+TIME_OUT = 'time out'
+
 
 # Sound States
 NORMAL = 'normal'
