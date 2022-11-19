@@ -51,7 +51,6 @@ class Control(object):
         self.state = self.state_dict[self.state_name]
         self.state.previous = previous
 
-
     def event_loop(self):
         for event in pg.event.get():
             if event.type == pg.QUIT:
@@ -62,7 +61,6 @@ class Control(object):
             elif event.type == pg.KEYUP:
                 self.keys = pg.key.get_pressed()
             self.state.get_event(event)
-
 
     def toggle_show_fps(self, key):
         if key == pg.K_FS:
@@ -104,3 +102,21 @@ class _State(object):
     def cleanup(self):
         self.done = False
         return self.persist
+
+    def update(self, surface, keys, current_time):
+        pass
+
+
+def load_all_gfx(directory, color_key=(255, 0, 255), accept=('.png', '.jpg', '.bmp')):
+    graphics = {}
+    for pic in os.listdir(directory):
+        name, ext = os.path.splitext(pic)
+        if ext.lower() in accept:
+            img = pg.image.load(os.path.join(directory, pic))
+            if img.get_alpha():
+                img = img.convert()
+                img.set_colorkey(color_key)
+            else:
+                img = img.convert()
+                img.set_colorkey(color_key)
+    return graphics
